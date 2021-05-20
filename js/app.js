@@ -1,6 +1,6 @@
-const api_key_clima = "cd85204cb6a44a78ae9ced0bdbc1925e";
+const api_key_clima = "";
 const url = `https://api.openweathermap.org/data/2.5/weather?appid=${api_key_clima}&units=metric&lang=es&q=`;
-const api_key_maps = "AIzaSyA0OS7TxlAyemHDLbKYFtr3DRHj3WrDEKc";
+const api_key_maps = "";
 const url_maps = `https://www.google.com/maps/embed/v1/place?key=${api_key_maps}&q=`;
 
 const form = document.getElementById("contact-form");
